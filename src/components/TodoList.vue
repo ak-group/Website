@@ -12,6 +12,7 @@
                 <span class="text-success">-$5</span>
             </li>
         </ul>
+        <BaseInputText v-model="newTodoText" placeholder="New todo" @keydown.enter="addTodo"/>
     </div>
 </template>
 

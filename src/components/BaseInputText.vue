@@ -1,7 +1,9 @@
 <template>
-    <label>
-        <input type="text" class="input" :value="value" v-on="listeners">
-    </label>
+    <div class="card p-2">
+        <div class="input-group">
+            <input type="text" class="form-control" :value="value" v-on="listeners" placeholder="Type a name">
+        </div>
+    </div>
 </template>
 
 <script>
