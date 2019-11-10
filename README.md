@@ -1,4 +1,4 @@
-# healthscreens
+# Simple website example (Vue.js and Bootstrap-vue)
 
 ## Project setup
 ```
